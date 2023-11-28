@@ -15,10 +15,15 @@
 			<label for="geoJsonLink">GeoJson Source:</label>
 			<input type="text" class="form-control" id="geoJsonLink" placeholder="Default GeoJson/Enter GeoJson Url">
 		  </div>
+
 		  <div class="form-group">
-			<label for="mergeList">Comma seperated country names:</label>
-			<input type="text" class="form-control" id="mergeList" placeholder="Enter Countries"
-				value="Germany,Poland,Austria">
+			<label for="properity">Target Feature property to merge:</label>
+			<input type="text" class="form-control" id="properity">
+		  </div>
+		  <div class="form-group">
+			<label for="mergeList">Comma seperated values:</label>
+			<input type="text" class="form-control" id="mergeList" placeholder="Comma seperated values"
+				value="">
 			<div class="d-flex justify-content-end">				
 				<button type="button" class="btn btn-sm btn-outline-primary mt-2" id="btnMap">Merge</button>
 			</div>			
