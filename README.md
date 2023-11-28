@@ -1,8 +1,8 @@
 # geojson-feature-merger
 This is a GeoJson editor/tool customized to merge features.
 You can merge and create a new feature with neighboring features with this tool.
-  
-# <a href="[https://abdurrahmanyildiz.github.io/geojson-feature-merger/feature-merger.html](http://xec.gr/geojson-feature-merger/feature-merger.html)">Tool is now available on GitHub Pages</a>
+
+# <a href="http://xec.gr/geojson-feature-merger/feature-merger.html">Tool is now available on GitHub Pages</a>
 - To test: Just click Merge button.
 
 - You can use <a href="https://openlayers.org/en/v4.6.5/examples/data/geojson/countries.geojson" target="blank">Default OpenLayers Countries</a> source or enter your special geojson source url to fetch.
