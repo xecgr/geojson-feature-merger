@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 //https://openlayers.org/data/vector/us-states.json
 document.getElementById("btnMap").addEventListener('click',()=>{
 	let url = document.getElementById("geoJsonLink").value;
-	let property = document.getElementById("property") && document.getElementById("property").value | "name"
+	let property = document.getElementById("property") && document.getElementById("property").value || "name"
 	url = url ? url : "https://openlayers.org/en/v4.6.5/examples/data/geojson/countries.geojson";
 	
 	fetch(url)
